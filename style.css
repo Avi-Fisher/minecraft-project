@@ -1,3 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+}
+
 body {
-    background-color:rgb(156, 233, 233); ;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(35, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 80%;
+    width: 100%;
+
+}
+
+
+main *:hover {
+    border: 1px solid rgb(255, 254, 254)
+}
+
+.sky {
+    background-color: rgb(156, 233, 233);
+}
+
+.head-land {
+    background-image: url("./icons/haed-land.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rgular-land {
+    background-image: url("./icons/rguler-land.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tree-trunk {
+    background-image: url("./icons/tree-trunk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tree-leaves {
+    background-image: url("./icons/tree-leaves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stone {
+    background-image: url("./icons/ston.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    gap: 10px;
+}
+
+#sohwBox {
+    background-color: gray;
+    height: 67px;
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 230px;
+}
+
+#box {
+    height: 120px;
+    width: 120px;
+    margin-left: 8rem;
+    background-color: black;
+}
+
+footer img  {
+    height: 60px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+#reset-game{
+    background-color: gray;
+    height: 50px;
+    width: 200px;
+    margin-left: 25rem;
+    border-radius: 10px;
 }
